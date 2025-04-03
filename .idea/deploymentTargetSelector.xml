@@ -7,8 +7,19 @@
       </SelectionState>
       <SelectionState runConfigName="Homepre">
         <option name="selectionMode" value="DROPDOWN" />
+        <DropdownSelection timestamp="2025-04-03T08:25:28.897223037Z">
+          <Target type="DEFAULT_BOOT">
+            <handle>
+              <DeviceId pluginId="PhysicalDevice" identifier="serial=0571535113002419" />
+            </handle>
+          </Target>
+        </DropdownSelection>
+        <DialogSelection />
       </SelectionState>
       <SelectionState runConfigName="login_prev">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="home_pre">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>

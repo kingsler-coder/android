@@ -47,14 +47,14 @@ fun Registerscreen(navController: NavController) {
         horizontalAlignment = Alignment.CenterHorizontally,
         modifier = Modifier
             .fillMaxSize()
-            .background(Color.White)
+            .background(Color.Cyan)
     ) {
         Text(
             text = "Register Page",
             fontSize = 35.sp,
             fontFamily = FontFamily.Monospace,
         )
-        Spacer(modifier = Modifier.height(50.dp))
+        Spacer(modifier = Modifier.height(20.dp))
         OutlinedTextField(
             value = first_name,
             onValueChange = { first_name = it },
@@ -68,7 +68,7 @@ fun Registerscreen(navController: NavController) {
             shape = RoundedCornerShape(20.dp),
             modifier = Modifier.padding(16.dp)
         )
-        Spacer(modifier = Modifier.height(50.dp))
+        Spacer(modifier = Modifier.height(20.dp))
         OutlinedTextField(
             value = last_name,
             onValueChange = { last_name = it },
@@ -83,7 +83,7 @@ fun Registerscreen(navController: NavController) {
             modifier = Modifier.padding(16.dp)
         )
 
-        Spacer(modifier = Modifier.height(50.dp))
+        Spacer(modifier = Modifier.height(20.dp))
         OutlinedTextField(
             value = email,
             onValueChange = { email = it },
@@ -115,11 +115,12 @@ Spacer(modifier= Modifier)
         Button(onClick = {/*TODO*/},
             modifier = Modifier.width(300.dp),
             colors = ButtonDefaults.buttonColors(
-            containerColor = Color.Gray)){
+            containerColor = Color.Black)){
         Text("Register",
             fontSize = 30.sp,
             fontFamily = FontFamily.Monospace
-        )}
+        )
+        }
 
     }
 }

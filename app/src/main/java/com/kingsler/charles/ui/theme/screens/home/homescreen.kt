@@ -55,7 +55,8 @@ fun Homescreen(navController: NavHostController){
         Button(onClick = {navController.navigate(route_login)},
             modifier =Modifier.width(300.dp)) {
             Text(text = "LOGIN",
-                fontSize = 40.sp)
+                fontSize = 40.sp,
+            color = Color.Black)
         }
         Spacer(modifier = Modifier.height(20.dp))
         Button(onClick = {navController.navigate(route_register)},
@@ -73,6 +74,6 @@ fun Homescreen(navController: NavHostController){
 
 @Preview
 @Composable
-private fun home_prev() {
+private fun home_pre() {
     Homescreen(rememberNavController())
 }
